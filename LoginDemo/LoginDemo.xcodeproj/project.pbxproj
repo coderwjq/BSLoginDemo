@@ -7,43 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29282A131DB133F20087F5AD /* JQFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29282A121DB133F20087F5AD /* JQFastLoginView.m */; };
-		29282A151DB134030087F5AD /* JQFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29282A141DB134030087F5AD /* JQFastLoginView.xib */; };
+		29AB8EC31DB27D9300D14E6E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29AB8EC21DB27D9300D14E6E /* Info.plist */; };
+		29AB8ED31DB27E5100D14E6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB8EC51DB27E5100D14E6E /* AppDelegate.m */; };
+		29AB8ED41DB27E5100D14E6E /* JQFastLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB8EC71DB27E5100D14E6E /* JQFastLoginButton.m */; };
+		29AB8ED51DB27E5100D14E6E /* JQFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB8EC91DB27E5100D14E6E /* JQFastLoginView.m */; };
+		29AB8ED61DB27E5100D14E6E /* JQFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29AB8ECA1DB27E5100D14E6E /* JQFastLoginView.xib */; };
+		29AB8ED71DB27E5100D14E6E /* JQLoginRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB8ECC1DB27E5100D14E6E /* JQLoginRegisterView.m */; };
+		29AB8ED81DB27E5100D14E6E /* JQLoginRegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29AB8ECD1DB27E5100D14E6E /* JQLoginRegisterView.xib */; };
+		29AB8ED91DB27E5100D14E6E /* JQLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB8ECF1DB27E5100D14E6E /* JQLoginRegisterViewController.m */; };
+		29AB8EDA1DB27E5100D14E6E /* JQLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29AB8ED01DB27E5100D14E6E /* JQLoginRegisterViewController.xib */; };
+		29AB8EDB1DB27E5100D14E6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB8ED21DB27E5100D14E6E /* ViewController.m */; };
+		29AB8EE11DB2913800D14E6E /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB8EE01DB2913800D14E6E /* UITextField+Placeholder.m */; };
+		29AB8EE41DB2964600D14E6E /* JQLoginField.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AB8EE31DB2964600D14E6E /* JQLoginField.m */; };
 		77B9CC801DAF183400F0A009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B9CC7F1DAF183400F0A009 /* main.m */; };
-		77B9CC831DAF183400F0A009 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B9CC821DAF183400F0A009 /* AppDelegate.m */; };
-		77B9CC861DAF183400F0A009 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B9CC851DAF183400F0A009 /* ViewController.m */; };
 		77B9CC891DAF183400F0A009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B9CC871DAF183400F0A009 /* Main.storyboard */; };
 		77B9CC8B1DAF183400F0A009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B9CC8A1DAF183400F0A009 /* Assets.xcassets */; };
 		77B9CC8E1DAF183400F0A009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B9CC8C1DAF183400F0A009 /* LaunchScreen.storyboard */; };
-		77B9CC981DAF1D4900F0A009 /* JQLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B9CC961DAF1D4900F0A009 /* JQLoginRegisterViewController.m */; };
-		77B9CC991DAF1D4900F0A009 /* JQLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77B9CC971DAF1D4900F0A009 /* JQLoginRegisterViewController.xib */; };
-		77B9CC9C1DAF257B00F0A009 /* JQLoginRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B9CC9B1DAF257B00F0A009 /* JQLoginRegisterView.m */; };
-		77B9CC9E1DAF259800F0A009 /* JQLoginRegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77B9CC9D1DAF259800F0A009 /* JQLoginRegisterView.xib */; };
-		77FE7A121DAF90AA008DF575 /* JQFastLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE7A111DAF90AA008DF575 /* JQFastLoginButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		29282A111DB133F20087F5AD /* JQFastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQFastLoginView.h; sourceTree = "<group>"; };
-		29282A121DB133F20087F5AD /* JQFastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQFastLoginView.m; sourceTree = "<group>"; };
-		29282A141DB134030087F5AD /* JQFastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JQFastLoginView.xib; sourceTree = "<group>"; };
+		29AB8EC21DB27D9300D14E6E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29AB8EC41DB27E5100D14E6E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29AB8EC51DB27E5100D14E6E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29AB8EC61DB27E5100D14E6E /* JQFastLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQFastLoginButton.h; sourceTree = "<group>"; };
+		29AB8EC71DB27E5100D14E6E /* JQFastLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQFastLoginButton.m; sourceTree = "<group>"; };
+		29AB8EC81DB27E5100D14E6E /* JQFastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQFastLoginView.h; sourceTree = "<group>"; };
+		29AB8EC91DB27E5100D14E6E /* JQFastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQFastLoginView.m; sourceTree = "<group>"; };
+		29AB8ECA1DB27E5100D14E6E /* JQFastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JQFastLoginView.xib; sourceTree = "<group>"; };
+		29AB8ECB1DB27E5100D14E6E /* JQLoginRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQLoginRegisterView.h; sourceTree = "<group>"; };
+		29AB8ECC1DB27E5100D14E6E /* JQLoginRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQLoginRegisterView.m; sourceTree = "<group>"; };
+		29AB8ECD1DB27E5100D14E6E /* JQLoginRegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JQLoginRegisterView.xib; sourceTree = "<group>"; };
+		29AB8ECE1DB27E5100D14E6E /* JQLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQLoginRegisterViewController.h; sourceTree = "<group>"; };
+		29AB8ECF1DB27E5100D14E6E /* JQLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQLoginRegisterViewController.m; sourceTree = "<group>"; };
+		29AB8ED01DB27E5100D14E6E /* JQLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JQLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		29AB8ED11DB27E5100D14E6E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29AB8ED21DB27E5100D14E6E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29AB8EDF1DB2913800D14E6E /* UITextField+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Placeholder.h"; sourceTree = "<group>"; };
+		29AB8EE01DB2913800D14E6E /* UITextField+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholder.m"; sourceTree = "<group>"; };
+		29AB8EE21DB2964600D14E6E /* JQLoginField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQLoginField.h; sourceTree = "<group>"; };
+		29AB8EE31DB2964600D14E6E /* JQLoginField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQLoginField.m; sourceTree = "<group>"; };
 		77B9CC7B1DAF183400F0A009 /* LoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B9CC7F1DAF183400F0A009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		77B9CC811DAF183400F0A009 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		77B9CC821DAF183400F0A009 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		77B9CC841DAF183400F0A009 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		77B9CC851DAF183400F0A009 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		77B9CC881DAF183400F0A009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77B9CC8A1DAF183400F0A009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77B9CC8D1DAF183400F0A009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		77B9CC8F1DAF183400F0A009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77B9CC951DAF1D4900F0A009 /* JQLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQLoginRegisterViewController.h; sourceTree = "<group>"; };
-		77B9CC961DAF1D4900F0A009 /* JQLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQLoginRegisterViewController.m; sourceTree = "<group>"; };
-		77B9CC971DAF1D4900F0A009 /* JQLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JQLoginRegisterViewController.xib; sourceTree = "<group>"; };
-		77B9CC9A1DAF257B00F0A009 /* JQLoginRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQLoginRegisterView.h; sourceTree = "<group>"; };
-		77B9CC9B1DAF257B00F0A009 /* JQLoginRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQLoginRegisterView.m; sourceTree = "<group>"; };
-		77B9CC9D1DAF259800F0A009 /* JQLoginRegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JQLoginRegisterView.xib; sourceTree = "<group>"; };
-		77FE7A101DAF90AA008DF575 /* JQFastLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQFastLoginButton.h; sourceTree = "<group>"; };
-		77FE7A111DAF90AA008DF575 /* JQFastLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQFastLoginButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,26 +83,30 @@
 		77B9CC7D1DAF183400F0A009 /* LoginDemo */ = {
 			isa = PBXGroup;
 			children = (
-				77B9CC811DAF183400F0A009 /* AppDelegate.h */,
-				77B9CC821DAF183400F0A009 /* AppDelegate.m */,
-				77B9CC841DAF183400F0A009 /* ViewController.h */,
-				77B9CC851DAF183400F0A009 /* ViewController.m */,
-				77B9CC951DAF1D4900F0A009 /* JQLoginRegisterViewController.h */,
-				77B9CC961DAF1D4900F0A009 /* JQLoginRegisterViewController.m */,
-				77B9CC971DAF1D4900F0A009 /* JQLoginRegisterViewController.xib */,
-				77B9CC9A1DAF257B00F0A009 /* JQLoginRegisterView.h */,
-				77B9CC9B1DAF257B00F0A009 /* JQLoginRegisterView.m */,
-				77B9CC9D1DAF259800F0A009 /* JQLoginRegisterView.xib */,
-				77FE7A101DAF90AA008DF575 /* JQFastLoginButton.h */,
-				77FE7A111DAF90AA008DF575 /* JQFastLoginButton.m */,
+				29AB8EC41DB27E5100D14E6E /* AppDelegate.h */,
+				29AB8EC51DB27E5100D14E6E /* AppDelegate.m */,
+				29AB8EC61DB27E5100D14E6E /* JQFastLoginButton.h */,
+				29AB8EC71DB27E5100D14E6E /* JQFastLoginButton.m */,
+				29AB8EC81DB27E5100D14E6E /* JQFastLoginView.h */,
+				29AB8EC91DB27E5100D14E6E /* JQFastLoginView.m */,
+				29AB8ECA1DB27E5100D14E6E /* JQFastLoginView.xib */,
+				29AB8ECB1DB27E5100D14E6E /* JQLoginRegisterView.h */,
+				29AB8ECC1DB27E5100D14E6E /* JQLoginRegisterView.m */,
+				29AB8ECD1DB27E5100D14E6E /* JQLoginRegisterView.xib */,
+				29AB8ECE1DB27E5100D14E6E /* JQLoginRegisterViewController.h */,
+				29AB8ECF1DB27E5100D14E6E /* JQLoginRegisterViewController.m */,
+				29AB8ED01DB27E5100D14E6E /* JQLoginRegisterViewController.xib */,
+				29AB8EDF1DB2913800D14E6E /* UITextField+Placeholder.h */,
+				29AB8EE01DB2913800D14E6E /* UITextField+Placeholder.m */,
+				29AB8ED11DB27E5100D14E6E /* ViewController.h */,
+				29AB8ED21DB27E5100D14E6E /* ViewController.m */,
+				29AB8EE21DB2964600D14E6E /* JQLoginField.h */,
+				29AB8EE31DB2964600D14E6E /* JQLoginField.m */,
+				29AB8EC21DB27D9300D14E6E /* Info.plist */,
 				77B9CC871DAF183400F0A009 /* Main.storyboard */,
 				77B9CC8A1DAF183400F0A009 /* Assets.xcassets */,
 				77B9CC8C1DAF183400F0A009 /* LaunchScreen.storyboard */,
-				77B9CC8F1DAF183400F0A009 /* Info.plist */,
 				77B9CC7E1DAF183400F0A009 /* Supporting Files */,
-				29282A111DB133F20087F5AD /* JQFastLoginView.h */,
-				29282A121DB133F20087F5AD /* JQFastLoginView.m */,
-				29282A141DB134030087F5AD /* JQFastLoginView.xib */,
 			);
 			path = LoginDemo;
 			sourceTree = "<group>";
@@ -140,6 +151,12 @@
 				TargetAttributes = {
 					77B9CC7A1DAF183400F0A009 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F99DNARY2N;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -166,12 +183,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29AB8EDA1DB27E5100D14E6E /* JQLoginRegisterViewController.xib in Resources */,
 				77B9CC8E1DAF183400F0A009 /* LaunchScreen.storyboard in Resources */,
 				77B9CC8B1DAF183400F0A009 /* Assets.xcassets in Resources */,
-				77B9CC9E1DAF259800F0A009 /* JQLoginRegisterView.xib in Resources */,
-				77B9CC991DAF1D4900F0A009 /* JQLoginRegisterViewController.xib in Resources */,
+				29AB8ED81DB27E5100D14E6E /* JQLoginRegisterView.xib in Resources */,
 				77B9CC891DAF183400F0A009 /* Main.storyboard in Resources */,
-				29282A151DB134030087F5AD /* JQFastLoginView.xib in Resources */,
+				29AB8ED61DB27E5100D14E6E /* JQFastLoginView.xib in Resources */,
+				29AB8EC31DB27D9300D14E6E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,13 +200,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77FE7A121DAF90AA008DF575 /* JQFastLoginButton.m in Sources */,
-				29282A131DB133F20087F5AD /* JQFastLoginView.m in Sources */,
-				77B9CC861DAF183400F0A009 /* ViewController.m in Sources */,
-				77B9CC831DAF183400F0A009 /* AppDelegate.m in Sources */,
-				77B9CC9C1DAF257B00F0A009 /* JQLoginRegisterView.m in Sources */,
-				77B9CC981DAF1D4900F0A009 /* JQLoginRegisterViewController.m in Sources */,
+				29AB8ED71DB27E5100D14E6E /* JQLoginRegisterView.m in Sources */,
+				29AB8EE11DB2913800D14E6E /* UITextField+Placeholder.m in Sources */,
+				29AB8ED51DB27E5100D14E6E /* JQFastLoginView.m in Sources */,
+				29AB8EDB1DB27E5100D14E6E /* ViewController.m in Sources */,
+				29AB8EE41DB2964600D14E6E /* JQLoginField.m in Sources */,
+				29AB8ED41DB27E5100D14E6E /* JQFastLoginButton.m in Sources */,
+				29AB8ED91DB27E5100D14E6E /* JQLoginRegisterViewController.m in Sources */,
 				77B9CC801DAF183400F0A009 /* main.m in Sources */,
+				29AB8ED31DB27E5100D14E6E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +324,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LoginDemo/Info.plist;
+				DEVELOPMENT_TEAM = F99DNARY2N;
+				INFOPLIST_FILE = "$(SRCROOT)/LoginDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiaqibear.LoginDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -315,7 +337,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LoginDemo/Info.plist;
+				DEVELOPMENT_TEAM = F99DNARY2N;
+				INFOPLIST_FILE = "$(SRCROOT)/LoginDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiaqibear.LoginDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -23,6 +23,7 @@
     self.imageView.frame = imageRect;
     
     imageCenter.x = self.frame.size.width * 0.5;
+    imageCenter.y = self.imageView.frame.size.height * 0.5;
     self.imageView.center = imageCenter;
     
     // 3.获取UIButton默认titleLabel的属性
@@ -35,8 +36,6 @@
     CGPoint titleCenter = self.titleLabel.center;
     titleCenter.x = self.frame.size.width * 0.5;
     self.titleLabel.center = titleCenter;
-    
-    
     
 }
 

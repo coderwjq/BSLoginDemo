@@ -47,7 +47,7 @@
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SnL-RI-HUo" userLabel="leftButton" customClass="JQFastLoginButton">
                             <constraints>
-                                <constraint firstAttribute="height" constant="70" id="Ckj-WB-Q10"/>
+                                <constraint firstAttribute="height" constant="90" id="Ckj-WB-Q10"/>
                                 <constraint firstAttribute="width" constant="70" id="jL7-4P-YCa"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -55,7 +55,7 @@
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYh-TE-Ib8" userLabel="middleButton" customClass="JQFastLoginButton">
                             <constraints>
-                                <constraint firstAttribute="height" constant="70" id="Tt1-T6-sue"/>
+                                <constraint firstAttribute="height" constant="90" id="Tt1-T6-sue"/>
                                 <constraint firstAttribute="width" constant="70" id="kr2-xH-fGe"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -63,7 +63,7 @@
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nq3-sK-1wx" userLabel="rightButton" customClass="JQFastLoginButton">
                             <constraints>
-                                <constraint firstAttribute="height" constant="70" id="3bC-uC-1Zz"/>
+                                <constraint firstAttribute="height" constant="90" id="3bC-uC-1Zz"/>
                                 <constraint firstAttribute="width" constant="70" id="NoF-bi-Sh3"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -77,13 +77,13 @@
                         <constraint firstItem="SnL-RI-HUo" firstAttribute="leading" secondItem="FtA-IO-xVR" secondAttribute="leading" constant="30" id="WZY-0E-RsO"/>
                         <constraint firstItem="kYh-TE-Ib8" firstAttribute="centerY" secondItem="FtA-IO-xVR" secondAttribute="centerY" id="YUN-Kv-UZD"/>
                         <constraint firstItem="SnL-RI-HUo" firstAttribute="centerY" secondItem="FtA-IO-xVR" secondAttribute="centerY" id="hTi-xq-ER9"/>
-                        <constraint firstAttribute="height" constant="90" id="l4c-Bj-5Bn"/>
                         <constraint firstItem="nq3-sK-1wx" firstAttribute="centerY" secondItem="FtA-IO-xVR" secondAttribute="centerY" id="sxK-Bc-fNm"/>
                     </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="FtA-IO-xVR" firstAttribute="top" secondItem="Kgt-wQ-KZb" secondAttribute="bottom" id="4BM-8y-rPZ"/>
                 <constraint firstItem="Kgt-wQ-KZb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9qb-0a-rI8"/>
                 <constraint firstItem="FtA-IO-xVR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="IGp-HC-q0b"/>
                 <constraint firstAttribute="trailing" secondItem="Kgt-wQ-KZb" secondAttribute="trailing" id="bpB-fA-QZV"/>
